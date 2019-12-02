@@ -20,6 +20,16 @@ public class User {
         this.lastVisit = lastVisit;
         this.hashPass = CryptoUtils.hashPassSHA256withSalt(password, "lobster");
     }
+    public User(String email, String password, City city, Race race) {
+        this.email = email;
+        this.password = password;
+        this.city = city;
+        this.race = race;
+        this.birhDay = new Date();
+        this.createDay = new Date();
+        this.lastVisit = new Date();
+        this.hashPass = CryptoUtils.hashPassSHA256withSalt(password, "lobster");
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

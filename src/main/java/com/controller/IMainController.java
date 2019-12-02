@@ -9,7 +9,7 @@ import com.model.Product;
 import com.model.Ticket;
 import com.model.User;
 
-public interface MainController {
+public interface IMainController {
 
     User logIn(String email, String pass) throws InvalidLoginException;
 

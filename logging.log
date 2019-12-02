@@ -1,0 +1,27 @@
+2019-12-02 14:40:11 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: lobstershop
+	...]
+2019-12-02 14:40:11 INFO  Version:37 - HHH000412: Hibernate Core {5.0.3.Final}
+2019-12-02 14:40:11 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-12-02 14:40:11 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2019-12-02 14:40:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2019-12-02 14:40:11 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2019-12-02 14:40:11 INFO  DriverManagerConnectionProviderImpl:128 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/lobsreshop_db_mysql]
+2019-12-02 14:40:11 INFO  DriverManagerConnectionProviderImpl:137 - HHH000046: Connection properties: {user=root}
+2019-12-02 14:40:11 INFO  DriverManagerConnectionProviderImpl:142 - HHH000006: Autocommit mode: false
+2019-12-02 14:40:11 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-12-02 14:40:12 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-02 14:40:12 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-12-02 14:40:12 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2019-12-02 14:40:12 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2019-12-02 14:40:12 ERROR SqlExceptionHelper:129 - Duplicate entry 'pudge4@mail.ua' for key 'UK_33uo7vet9c79ydfuwg1w848f'
+2019-12-02 14:40:12 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-12-02 14:42:25 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2019-12-02 14:42:26 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2019-12-02 14:42:26 ERROR SqlExceptionHelper:129 - Duplicate entry 'pudge4@mail.ua' for key 'UK_33uo7vet9c79ydfuwg1w848f'
+2019-12-02 14:46:36 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2019-12-02 15:06:16 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2019-12-02 15:06:44 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2019-12-02 15:08:02 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2019-12-02 15:09:57 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2019-12-02 15:10:36 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)

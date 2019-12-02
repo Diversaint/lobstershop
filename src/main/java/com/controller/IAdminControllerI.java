@@ -1,16 +1,14 @@
 package com.controller;
 
 import com.exception.AppException;
-import com.exception.CartException;
 import com.exception.RegisterException;
-import com.exception.TicketException;
 import com.model.Admin;
 import com.model.Product;
 import com.model.User;
 
 import java.util.List;
 
-public interface AdminController extends MainController {
+public interface IAdminControllerI extends IMainController {
 
 
     Product addProduct(Product product) throws AppException;
