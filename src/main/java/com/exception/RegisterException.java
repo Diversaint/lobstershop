@@ -1,4 +1,4 @@
-package exception;
+package com.exception;
 
 public class RegisterException extends AppException {
     public RegisterException(String message) {

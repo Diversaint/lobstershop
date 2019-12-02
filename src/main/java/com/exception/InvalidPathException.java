@@ -1,4 +1,4 @@
-package exception;
+package com.exception;
 
 public class InvalidPathException extends AppException{
     public InvalidPathException(String message) {
